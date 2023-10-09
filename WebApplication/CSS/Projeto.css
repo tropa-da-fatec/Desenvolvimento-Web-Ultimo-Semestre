@@ -1,0 +1,103 @@
+﻿/* PROJETO WEB - ESTRUTURA DA MASTER PAGE */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
+
+/* CABEÇALHO  */
+.cabecalho {
+    height: 81px;
+    width: 100%;
+    /* permite que elementos tenham posições ABSOLUTAS dentro do cabeçalho */
+    position: relative;
+    border-bottom: 1px solid #c9c9c9;
+    background: #ffb93a;
+    font-family: IBM Plex Sans Arabic;
+    font-weight:bold;
+}
+
+.logomarca {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 80px;
+    text-align:center;
+}
+
+.logomarca img {
+    margin-top:8px;
+    padding-left:30px;
+}
+
+.barra-titulo {
+    position: absolute;
+    top: 0;
+    left: 81px;
+    right: 0;
+    bottom: 40px;
+}
+
+.barra-titulo h1{
+    padding:25px;
+    /*padding-left: 60px;*/
+    text-align:center;
+    font-size:35px;
+}
+.barra-menu {
+    position: absolute;
+    left: 81px;
+    right: 0;
+    bottom: 0;
+    height: 40px;
+    text-align:right;
+    padding-right:30px;
+}
+
+    .barra-menu a {
+        color: #333333;
+        font-family: IBM Plex Sans Arabic;
+        font-weight:600;
+        font-size: 14px;
+        margin-left: 4px;
+        margin-right: 4px;
+        padding-bottom: 2px;
+        text-decoration: none;
+        border-bottom: 3px solid transparent;
+        cursor: pointer;
+    }
+
+        .barra-menu a:hover {
+            color: darkred;
+            border-bottom: 3px solid darkred;
+        }
+
+/*
+    .barra-menu a {
+        color: #333333;
+        font-size: 14px;
+        margin-left: 4px;
+        margin-right: 4px;
+        padding-bottom: 2px;
+        text-decoration: none;
+        border-bottom: 3px solid transparent;
+        cursor: pointer;
+        font-family:
+    }
+
+        .barra-menu a:hover {
+            color: black;
+            border: 1px solid black;
+            background-color: #e9814c;
+            border-radius:5px;
+        }
+*/
+.conteudo {
+    min-height: 800px;
+}
+
+.rodape {
+    height: 400px;
+    background-color: #dbdbdb;
+    padding: 30px;
+}
+
+/**/
