@@ -89,12 +89,15 @@
     <Content Include="Images\marca.png" />
     <Content Include="Images\marca1.png" />
     <Content Include="Images\menu_mobile.png" />
+    <Content Include="Images\pessoas.png" />
     <Content Include="Images\programador.png" />
+    <Content Include="Images\resultado.png" />
     <Content Include="Images\si1.png" />
     <Content Include="Images\si2.jpg" />
     <Content Include="Images\si3.jpg" />
     <Content Include="Images\si4.jpg" />
     <Content Include="Images\si5.jpeg" />
+    <Content Include="integrantes.aspx" />
     <Content Include="JavaScript\flexslider.css" />
     <Content Include="JavaScript\flexslider.min.js" />
     <Content Include="JavaScript\jquery-1.7.2.min.js" />
@@ -115,6 +118,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="integrantes.aspx.cs">
+      <DependentUpon>integrantes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="integrantes.aspx.designer.cs">
+      <DependentUpon>integrantes.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
