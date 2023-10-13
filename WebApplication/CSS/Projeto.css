@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
 
 /* CABEÇALHO  */
-
 .cabecalho {
     height: 81px;
     width: 100%;
@@ -12,8 +11,7 @@
     border-bottom: 1px solid #c9c9c9;
     background: #ffb93a;
     font-family: IBM Plex Sans Arabic;
-    font-weight: bold;
-    background: #9AC6EC;
+    font-weight:bold;
 }
 
 .logomarca {
@@ -68,8 +66,8 @@
     }
 
         .barra-menu a:hover {
-            color: white;
-            border-bottom: 3px solid white;
+            color: darkred;
+            border-bottom: 3px solid darkred;
         }
 
 /*
@@ -102,25 +100,4 @@
     padding: 30px;
 }
 
-/* IMAGENS */
-
-.pessoas-img{
-    height:250px;
-    margin-left:950px;
-    margin-top: -25vh;
-}
-
-/*TEXTO*/
-
-.texto-inegrantes{
-    padding-left:50px;
-}
-
-.barra-case::before {
-    content: '';
-    position: absolute;
-    height: 7px;
-    width: 185px;
-    border-radius: 8px;
-    background: #2a92ed;
-}
+/**/
