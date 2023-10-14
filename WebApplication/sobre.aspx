@@ -20,8 +20,8 @@
         </p>
     </div>
 
-    <div class="ImagemSobre">
-        <img src="Images/si1.png" />
+    <div class="container-img">
+        <img src="Images/Infra.png" class="ImagemSobre"/>
     </div>
 </asp:Content>
 
