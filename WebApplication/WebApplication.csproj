@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Cases.aspx" />
     <Content Include="contato.aspx" />
     <Content Include="CSS\Projeto.css" />
     <Content Include="CSS\StyleSheet.css" />
@@ -90,7 +91,9 @@
     <Content Include="Images\marca.png" />
     <Content Include="Images\marca1.png" />
     <Content Include="Images\menu_mobile.png" />
+    <Content Include="Images\pessoas.png" />
     <Content Include="Images\programador.png" />
+    <Content Include="Images\resultado.png" />
     <Content Include="Images\si1.png" />
     <Content Include="Images\si2.jpg" />
     <Content Include="Images\si3.jpg" />
@@ -103,6 +106,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cases.aspx.cs">
+      <DependentUpon>Cases.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cases.aspx.designer.cs">
+      <DependentUpon>Cases.aspx</DependentUpon>
+    </Compile>
     <Compile Include="contato.aspx.cs">
       <DependentUpon>contato.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
