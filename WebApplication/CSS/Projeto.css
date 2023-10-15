@@ -130,3 +130,17 @@
     border-radius: 8px;
     background: #2a92ed;
 }
+
+.links-home a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    transition: transform 0.3s, background 0.3s;
+}
+
+    .links-home a:hover {
+        transform: scale(1.1);
+        background: #4F89DB;
+        border-radius:10px;
+        padding: 10px;
+    }
