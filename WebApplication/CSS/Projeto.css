@@ -113,7 +113,9 @@ body {
 .pessoas-img {
     height: 250px;
     margin-left: 950px;
-    margin-top: -25vh;
+    margin-top: -150vh;
+    border: 4px dashed black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
 }
 
 /*TEXTO*/
@@ -146,6 +148,4 @@ body {
         padding: 10px;
     }
 
-.conteudo-cases {
-    margin-top: -60px;
-}
+.
