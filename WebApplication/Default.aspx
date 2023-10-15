@@ -53,9 +53,9 @@
                     <a href="#">
                         <img width="100%" src="Images/si2.jpg" />
                         <br />
-                        <h3>Cultura DevOps</h3>
+                        <h3>Rede em Nuvem e Virtualização</h3>
                         <p>
-                            DevOps é uma abordagem de desenvolvimento de software que enfatiza a colaboração entre desenvolvedores de software, profissionais de operações de TI e outros envolvidos no processo de desenvolvimento de software. O objetivo do DevOps é automatizar o processo de entrega de software o máximo possível, permitindo que as equipes lancem software com mais frequência e com maior confiabilidade.
+                            Descubra como a KGVL pode ajudar sua empresa a abraçar a era da computação em nuvem e virtualização. Nossos serviços capacitam sua organização a ser ágil e escalável, otimizando custos e recursos de TI.
                         </p>
                         <br />
                     </a>
@@ -66,9 +66,9 @@
                     <a href="#">
                         <img width="100%" src="Images/si3.jpg" />
                         <br />
-                        <h3>Análise de dados</h3>
+                        <h3>Serviços de Rede Corporativa</h3>
                         <p>
-                            Power BI é um serviço de análise de negócios fornecido pela Microsoft que permite aos usuários transformar dados em visualizações interativas e compartilhá-las com outras pessoas. Ele fornece um conjunto de ferramentas de inteligência empresarial e visualização de dados, incluindo painéis, relatórios e exploração de dados.
+                            Explore nossos serviços de rede corporativa e descubra como a KGVL pode transformar sua infraestrutura de TI em um alicerce sólido para o sucesso. Oferecemos soluções personalizadas para empresas de médio e grande porte, garantindo estabilidade, segurança e inovação em sua rede.
                         </p>
                         <br />
                     </a>
@@ -79,9 +79,9 @@
                     <a href="#">
                         <img width="100%" src="Images/si4.jpg" />
                         <br />
-                        <h3>Dashboards</h3>
+                        <h3>Monitoramento de Rede em Tempo Real</h3>
                         <p>
-                            O Power BI integra-se a uma ampla variedade de fontes de dados, incluindo planilhas do Excel, fontes de dados baseadas em nuvem e locais e fontes de big data. Sua interface de arrastar e soltar torna fácil para os usuários criarem visualizações e relatórios personalizados sem precisar escrever nenhum código. O Power BI é amplamente utilizado em várias indústrias para análise de dados e tomada de decisões.
+                            Mantenha o controle total de sua rede com nossos serviços de monitoramento em tempo real. Nossa equipe de especialistas está sempre atenta para garantir que sua infraestrutura de rede esteja funcionando perfeitamente. Descubra como podemos fornecer tranquilidade 24/7.
                         </p>
                         <br />
                     </a>
