@@ -148,4 +148,24 @@ body {
         padding: 10px;
     }
 
-.
+.sobre {
+    padding: 25px;
+    text-align: center;
+}
+
+.quemsomos {
+    margin-left: 40px;
+    text-align: justify;
+    width: 40%;
+    float: left; /* Aqui vc flutua o texto antes pra esquerda*/
+}
+
+.container-img {
+    float: left /* Aqui vc flutua a div container da imagem */
+}
+
+.ImagemSobre {
+    width: 700px;
+    height: 270px;
+    margin-left: 20px; /*Aqui vc formata a imagem com o quiser*/
+}
