@@ -157,15 +157,26 @@ body {
     margin-left: 40px;
     text-align: justify;
     width: 40%;
-    float: left; /* Aqui vc flutua o texto antes pra esquerda*/
+   /* float: left; /* Aqui vc flutua o texto antes pra esquerda*/
+   
 }
 
 .container-img {
-    float: left /* Aqui vc flutua a div container da imagem */
+    /*loat: left; /* Aqui vc flutua a div container da imagem */
+    height: 250px;
+    width: 254px;
 }
 
 .ImagemSobre {
     width: 700px;
     height: 270px;
-    margin-left: 20px; /*Aqui vc formata a imagem com o quiser*/
+    margin-left: 45rem;
+    margin-top: -18rem;
+}
+
+.borda_principal {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 250px;
+    margin-left: -20px;
 }

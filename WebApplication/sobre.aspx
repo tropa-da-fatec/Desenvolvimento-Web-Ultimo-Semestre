@@ -23,5 +23,19 @@
     <div class="container-img">
         <img src="Images/Infra.png" class="ImagemSobre"/>
     </div>
+    <div class="text-center d-flex align-items-stretch borda_principal">
+        <div>
+            <h2>Missão</h2>
+            <p> Teste lsdlskdlka</p>
+        </div>
+        <div>
+            <h2>Visão</h2>
+            <p> Teste skskadkaosd</p>
+        </div>
+        <div>
+            <h2>Valores</h2>
+            <p> Teste oaoadoaerad</p>
+        </div>
+    </div>
 </asp:Content>
 
