@@ -21,20 +21,23 @@
     </div>
 
     <div class="container-img">
-        <img src="Images/Infra.png" class="ImagemSobre"/>
+        <img src="Images/imagem_sobre.jpg" class="ImagemSobre"/>
     </div>
     <div class="text-center d-flex align-items-stretch borda_principal">
-        <div>
+        <div class="Missao">
             <h2>Missão</h2>
-            <p> Teste lsdlskdlka</p>
+            <br />
+            <p> A KGVL LTDA visa fornecer soluções de rede personalizadas e eficientes para empresas de médio e grande porte, garantindo que nossos clientes possam crescer e evoluir em um ambiente tecnológico em constante mudança.</p>
         </div>
-        <div>
+        <div class="Visao">
             <h2>Visão</h2>
-            <p> Teste skskadkaosd</p>
+            <br />
+            <p> Se tornar uma referência nacional em soluções de infraestrutura de rede empresarial, entregando aos seus clientes serviços de qualidade com inovação e segurança.</p>
         </div>
-        <div>
+        <div class="Valores">
             <h2>Valores</h2>
-            <p> Teste oaoadoaerad</p>
+            <br />
+            <p> Integridade e Honestidade; Inovação; Comprometimento; Respeito; Paixão por Tecnologia; Qualidade e Trabalho em equipe.</p>
         </div>
     </div>
 </asp:Content>
