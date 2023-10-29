@@ -1,4 +1,4 @@
-﻿/* PROJETO WEB - ESTRUTURA DA MASTER PAGE */
+﻿﻿ /* PROJETO WEB - ESTRUTURA DA MASTER PAGE */
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
 
@@ -144,7 +144,7 @@ body {
     .links-home a:hover {
         transform: scale(1.1);
         background: #4F89DB;
-        border-radius:10px;
+        border-radius: 10px;
         padding: 10px;
     }
 
@@ -157,50 +157,68 @@ body {
     margin-left: 40px;
     text-align: justify;
     width: 40%;
-    float: left; /* Aqui vc flutua o texto antes pra esquerda*/
+    /* float: left; /* Aqui vc flutua o texto antes pra esquerda*/
 }
 
 .container-img {
-    float: left /* Aqui vc flutua a div container da imagem */
+    /*loat: left; /* Aqui vc flutua a div container da imagem */
+    height: 250px;
+    width: 254px;
 }
 
 .ImagemSobre {
     width: 700px;
     height: 270px;
-    margin-left: 20px; /*Aqui vc formata a imagem com o quiser*/
+    margin-left: 45rem;
+    margin-top: -18rem;
 }
 
+.borda_principal {
+    display: flex;
+    justify-content: center;
+    width: 80rem;
+    margin-bottom: 270px;
+    margin-left: 90px;
+    border: 4px solid #042782;
+    background-color: rgb(128, 128, 128);
+    border-radius: 10px;
+}
 
-/*Parte da responsividade*/
-
-@media (max-width: 920px) and (orientation: portrait) {
-    body {
-        background: linear-gradient(45deg, #4FDBA5, #4EDBD5);
-        background-repeat: no-repeat;
-        min-height: 100vh;
-        min-width: 10vh;
-    }
-
-    .barra-titulo h1 {
-        padding: 25px;
+    .borda_principal p {
+        font-size: 18px;
         text-align: center;
-        font-size: 25px;
     }
 
-    .logomarca img {
-        margin-top: 20px;
-        padding-left: 30px;
-        width: 65px;
-        margin-right: 15px;
-    }
+.Missao {
+    width: 500px;
+}
 
-    .links-home p{
-        display:none;
-    }
+.Visao {
+    width: 500px;
+}
 
-    .links-home h3{
-        text-align:center;
-    }
+.Valores {
+    width: 500px;
 }
 
 
+.input .underline::before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 660px;
+    left: 22px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.input .underline::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 660px;
+    left: 22px;
+    background: linear-gradient(45deg, #8e2de2, #4a00e0);
+    transform: scaleX(0);
+    transition: all .5s ease-in-out;
+    transform-origin: left;
+}
