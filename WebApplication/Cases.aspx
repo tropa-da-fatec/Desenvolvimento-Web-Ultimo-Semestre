@@ -1,17 +1,53 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Cases.aspx.cs" Inherits="WebApplication.Cases" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Conteudo" runat="server">
-     <div class="margin-top-60">
+    <div class="margin-top-60">
         <div class="texto-inegrantes col-6">
-            <h2>Cases de Sucesso</h2>
+            <h2>Integrantes do time</h2>
             <span class="barra-case"></span>
             <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing (Escrever algo sobre projetos )
+                Atualmente contamos com 20 colaboradores e com planos pra exapandir a nossa familia, veja os integrantes do nosso time e caso se interesse fique avontade para entrar em contato conosco para fazer parte desta familia.
+           
             </p>
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing (Escrever algo sobre projetos )
-            </p>
+            <div class="times">
+
+                <div class="lider">
+                    <img src="Images/lider-redes.jpg" />
+                    <h3></h3>
+                    <p>Lider da equipe de Engenharia de Redes, responsavel por projetar, implementar e manter as infraestruturas de rede dos clientes.</p>
+                </div>
+
+                <div class="lider">
+                    <img src="Images/lider-suporte.jpg" />
+                    <h3></h3>
+                    <p>Lider da equipe de Suporte, responsavel por  prestar suporte técnico aos clientes, ajudando a solucionar problemas e fornecendo assistência remota ou no local</p>
+                </div>
+
+                <div class="lider">
+                    <img src="Images/lider-dev.jpg" />
+                    <h3></h3>
+                    <p>Lider da equipe de Desenvolvimento e Inovações, responsavel pela criação de ferramentas e aplicativos personalizados para otimizar a gestão da rede.</p>
+                </div>
+
+                <div class="lider">
+                    <img src="Images/lider-marketing.jpg" />
+                    <h3></h3>
+                    <p>Lider da equipe de Vendas e Marketing, responsavel por monitoramem as tendências do setor e identificam oportunidades de inovação.</p>
+                </div>
+                <div class="lider">
+                    <img src="Images/lider-qualidade.jpg" />
+                    <h3></h3>
+                    <p>Lider da equipe de Qualidade e Controles de projetos, responsaveis por Identificarem oportunidades de negócios, fazem apresentações para clientes em potencial e fecham acordos</p>
+                </div>
+                <div class="lider">
+                    <img src="Images/lider-financas.jpg" />
+                    <h3></h3>
+                    <p>Lider da equipe de Finanças, responsaveis por gerenciam as finanças, orçamentos e estratégias financeiras da empresa.</p>
+                </div>
+
+            </div>
         </div>
         <img class='pessoas-img' src="Images/pessoas.png" />
     </div>

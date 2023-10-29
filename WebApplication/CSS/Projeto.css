@@ -1,7 +1,11 @@
 ﻿﻿ /* PROJETO WEB - ESTRUTURA DA MASTER PAGE */
+
+
+
 * {
     background: #198981 !important;
 }
+
 
 body {
     background: linear-gradient(45deg, #4FDBA5, #4EDBD5);
@@ -112,8 +116,8 @@ body {
 
 .pessoas-img {
     height: 250px;
-    margin-left: 950px;
-    margin-top: -150vh;
+    margin-left: 920px;
+    margin-top: -75vh;
     border: 4px dashed black;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
 }
@@ -129,7 +133,8 @@ body {
     content: '';
     position: absolute;
     height: 7px;
-    width: 185px;
+    width: 250px;
+    margin-top: -10px;
     border-radius: 8px;
     background: #2a92ed;
 }
@@ -221,6 +226,11 @@ body {
     transform: scaleX(0);
     transition: all .5s ease-in-out;
     transform-origin: left;
+}
+
+.lider img {
+    width:200px;
+    border-radius:55px;
 }
 
 

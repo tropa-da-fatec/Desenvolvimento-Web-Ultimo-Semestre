@@ -88,6 +88,12 @@
     <Content Include="Images\imagem_sobre.jpg" />
     <Content Include="Images\Infra.png" />
     <Content Include="Images\instagram.png" />
+    <Content Include="Images\lider-dev.jpg" />
+    <Content Include="Images\lider-financas.jpg" />
+    <Content Include="Images\lider-qualidade.jpg" />
+    <Content Include="Images\lider-redes.jpg" />
+    <Content Include="Images\lider-suporte.jpg" />
+    <Content Include="Images\lider-marketing.jpg" />
     <Content Include="Images\lupa.png" />
     <Content Include="Images\marca.png" />
     <Content Include="Images\marca1.png" />
