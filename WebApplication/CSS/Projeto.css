@@ -169,3 +169,36 @@ body {
     height: 270px;
     margin-left: 20px; /*Aqui vc formata a imagem com o quiser*/
 }
+
+
+/*Parte da responsividade*/
+
+@media (max-width: 920px) and (orientation: portrait) {
+    body {
+        background: linear-gradient(45deg, #4FDBA5, #4EDBD5);
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        min-width: 10vh;
+    }
+
+    .barra-titulo h1 {
+        padding: 25px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .logomarca img {
+        margin-top: 20px;
+        padding-left: 30px;
+        width: 65px;
+        margin-right: 15px;
+    }
+
+    .links-home p{
+        display:none;
+    }
+
+    .links-home h3{
+        text-align:center;
+    }
+}
