@@ -12,7 +12,6 @@
                     <br />
                     <asp:Label ID="Msg" runat="server" ForeColor="red"></asp:Label>
                     <br />
-                    <br />
 
                     <div class="input">
                         <label>Seu Nome</label>
