@@ -239,20 +239,29 @@ body {
 }
 
 
-/*Parte da responsividade*/
 
+/*Parte da responsividade*/
 @media (max-width: 920px) and (orientation: portrait) {
     body {
         background: linear-gradient(45deg, #4FDBA5, #4EDBD5);
         background-repeat: no-repeat;
         min-height: 100vh;
-        min-width: 10vh;
+        min-width: 57vh;
     }
 
     .barra-titulo h1 {
         padding: 25px;
         text-align: center;
         font-size: 25px;
+    }
+
+    .links-home {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: stretch;
     }
 
     .logomarca img {
