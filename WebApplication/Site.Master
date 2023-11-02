@@ -68,38 +68,29 @@
 
         <!-- RODAPÉ -->
         <div class="rodape margin-top-60">
-            <div class="row">
-                <div class="col-3">
-                    <div class="box margin-right-20">
+            <div class="row d-flex justify-content-evenly">
+
+
+                <div class="col-5">
+                    <div class="box margin-right-20 link-rodape">
                         <p>
-                            123456
+                            Links para contato
                         </p>
+                        <a href="">Linkedin </a> <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+                        <br />
+                        <a href="">Gmail </a><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 488 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"/></svg>
+                        <br />
+
                     </div>
                 </div>
 
-                <div class="col-3">
+                <div class="col-5">
                     <div class="box margin-right-20">
-                        <p>
-                            Testando
-                        </p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.697224280491!2d-47.3514469!3d-22.739492499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c89bea5cdb94f9%3A0xffb368bd91ea12ae!2sFatec%20Americana%20-%20Faculdade%20de%20Tecnologia%20de%20Americana%20Ministro%20Ralph%20Biasi!5e0!3m2!1spt-BR!2sbr!4v1696467027773!5m2!1spt-BR!2sbr" width="100%" height="320" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
 
-                <div class="col-3">
-                    <div class="box margin-right-20">
-                        <p>
-                            Testando
-                        </p>
-                    </div>
-                </div>
 
-                <div class="col-3">
-                    <div class="box margin-right-20">
-                        <p>
-                            Testando
-                        </p>
-                    </div>
-                </div>
             </div>
         </div>
     </form>

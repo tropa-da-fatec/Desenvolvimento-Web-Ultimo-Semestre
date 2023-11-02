@@ -61,9 +61,12 @@
             </div>
 
             <div class="lider">
+                <div class="lideres-rigth">
+
                 <img src="Images/lider-suporte.jpg" class="imge" />
                 <h3>Equipe de Suporte</h3>
                 <p>Lider da equipe de Suporte, responsavel por  prestar suporte técnico aos clientes, ajudando a solucionar problemas e fornecendo assistência remota ou no local</p>
+                </div>
             </div>
         </div>
         <div class="segundo d-flex justify-content-around">
@@ -72,11 +75,14 @@
                 <h3>Eqipe de Desenvolvimento e Inovações</h3>
                 <p>Lider da equipe de Desenvolvimento e Inovações, responsavel pela criação de ferramentas e aplicativos personalizados para otimizar a gestão da rede.</p>
             </div>
-
+            
             <div class="lider">
+                <div class="lideres-rigth">
+
                 <img src="Images/lider-marketing.jpg" class="imge" />
                 <h3>Equipe de Marketing e Vendas</h3>
-                <p>Lider da equipe de Vendas e Marketing, responsavel por monitoramem as tendências do setor e identificam oportunidades de inovação.</p>
+                    <p>Lider da equipe de Vendas e Marketing, responsavel por monitoramem as tendências do setor e identificam oportunidades de inovação.</p>
+                </div>
             </div>
         </div>
         <div class="terceiro d-flex justify-content-around">
@@ -86,9 +92,12 @@
                 <p>Lider da equipe de Qualidade e Controles de projetos, responsaveis por Identificarem oportunidades de negócios, fazem apresentações para clientes em potencial e fecham acordos</p>
             </div>
             <div class="lider">
+                <div class="lideres-rigth">
+
                 <img src="Images/lider-financas.jpg" class="imge" />
                 <h3>Equipe de Finanças</h3>
                 <p>Lider da equipe de Finanças, responsaveis por gerenciam as finanças, orçamentos e estratégias financeiras da empresa.</p>
+                </div>
             </div>
         </div>
     </div>
