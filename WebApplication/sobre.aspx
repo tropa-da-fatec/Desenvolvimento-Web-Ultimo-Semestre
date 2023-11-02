@@ -21,23 +21,75 @@
     </div>
 
     <div class="container-img">
-        <img src="Images/imagem_sobre.jpg" class="ImagemSobre"/>
+        <img src="Images/imagem_sobre.jpg" class="ImagemSobre" />
     </div>
-    <div class="text-center d-flex align-items-stretch borda_principal">
-        <div class="Missao">
-            <h2>Missão</h2>
-            <br />
-            <p> A KGVL LTDA visa fornecer soluções de rede personalizadas e eficientes para empresas de médio e grande porte, garantindo que nossos clientes possam crescer e evoluir em um ambiente tecnológico em constante mudança.</p>
+
+    <div class="text-center d-flex align-items-stretch ">
+        <div class="body">
+            <div class="flex-container">
+                <div class="flex-item item1">
+                    <h2 style="color: black">Missão</h2>
+                    <br />
+                    <p>A KGVL LTDA visa fornecer soluções de rede personalizadas e eficientes para empresas de médio e grande porte, garantindo que nossos clientes possam crescer e evoluir em um ambiente tecnológico em constante mudança.</p>
+                </div>
+                <div class="flex-item item2">
+                    <h2 style="color: black">Visão</h2>
+                    <br />
+                    <p>Se tornar uma referência nacional em soluções de infraestrutura de rede empresarial, entregando aos seus clientes serviços de qualidade com inovação e segurança.</p>
+                </div>
+                <div class="flex-item item3">
+                    <h2 style="color: black">Valores</h2>
+                    <br />
+                    <p>Integridade e Honestidade; Inovação; Comprometimento; Respeito; Paixão por Tecnologia; Qualidade e Trabalho em equipe.</p>
+                </div>
+            </div>
         </div>
-        <div class="Visao">
-            <h2>Visão</h2>
-            <br />
-            <p> Se tornar uma referência nacional em soluções de infraestrutura de rede empresarial, entregando aos seus clientes serviços de qualidade com inovação e segurança.</p>
+    </div>
+
+    <div class="bar">
+        <div>
+            <h1>Nosso Time</h1>
         </div>
-        <div class="Valores">
-            <h2>Valores</h2>
-            <br />
-            <p> Integridade e Honestidade; Inovação; Comprometimento; Respeito; Paixão por Tecnologia; Qualidade e Trabalho em equipe.</p>
+    </div>
+
+    <div class="times">
+        <div class="primeiro d-flex justify-content-around">
+            <div class="lider">
+                <img src="Images/lider-redes.jpg" />
+                <h3>Equipe de Engenharia de Redes</h3>
+                <p>Lider da equipe de Engenharia de Redes, responsavel por projetar, implementar e manter as infraestruturas de rede dos clientes.</p>
+            </div>
+
+            <div class="lider">
+                <img src="Images/lider-suporte.jpg" class="imge" />
+                <h3>Equipe de Suporte</h3>
+                <p>Lider da equipe de Suporte, responsavel por  prestar suporte técnico aos clientes, ajudando a solucionar problemas e fornecendo assistência remota ou no local</p>
+            </div>
+        </div>
+        <div class="segundo d-flex justify-content-around">
+            <div class="lider">
+                <img src="Images/lider-dev.jpg" />
+                <h3>Eqipe de Desenvolvimento e Inovações</h3>
+                <p>Lider da equipe de Desenvolvimento e Inovações, responsavel pela criação de ferramentas e aplicativos personalizados para otimizar a gestão da rede.</p>
+            </div>
+
+            <div class="lider">
+                <img src="Images/lider-marketing.jpg" class="imge" />
+                <h3>Equipe de Marketing e Vendas</h3>
+                <p>Lider da equipe de Vendas e Marketing, responsavel por monitoramem as tendências do setor e identificam oportunidades de inovação.</p>
+            </div>
+        </div>
+        <div class="terceiro d-flex justify-content-around">
+            <div class="lider">
+                <img src="Images/lider-qualidade.jpg" />
+                <h3>Equipe de Qualidade</h3>
+                <p>Lider da equipe de Qualidade e Controles de projetos, responsaveis por Identificarem oportunidades de negócios, fazem apresentações para clientes em potencial e fecham acordos</p>
+            </div>
+            <div class="lider">
+                <img src="Images/lider-financas.jpg" class="imge" />
+                <h3>Equipe de Finanças</h3>
+                <p>Lider da equipe de Finanças, responsaveis por gerenciam as finanças, orçamentos e estratégias financeiras da empresa.</p>
+            </div>
         </div>
     </div>
 </asp:Content>
