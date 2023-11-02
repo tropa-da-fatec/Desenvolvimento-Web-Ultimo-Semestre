@@ -231,6 +231,7 @@ body {
 .lider img {
     width:200px;
     border-radius:55px;
+    box-shadow:20px;
 }
 
 .lider {

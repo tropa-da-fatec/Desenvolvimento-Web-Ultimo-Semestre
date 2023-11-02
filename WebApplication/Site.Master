@@ -25,7 +25,7 @@
     <script href="https://kit.fontawesmo.com/1ab94d0eba.sj"></script>
 
 </head>
-<body>
+<body class="container-fluid">
     <form id="form1" runat="server">
         <!-- CABEÇALHO -->
         <div class="cabecalho">
