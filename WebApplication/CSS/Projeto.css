@@ -1,15 +1,12 @@
 ﻿﻿ /* PROJETO WEB - ESTRUTURA DA MASTER PAGE */
-
-
-
 * {
     background: #198981 !important;
 }
 
 
 body {
-    background: linear-gradient(45deg, #4FDBA5, #4EDBD5);
-    background-repeat: no-repeat;
+    /*background: linear-gradient(45deg, #4FDBA5, #4EDBD5);
+    background-repeat: no-repeat;*/
     min-height: 100vh;
     min-width: 100vh;
 }
@@ -109,7 +106,7 @@ body {
 
 .rodape {
     height: 400px;
-    background:linear-gradient(95deg, #a8d9fb, #42b0fd);
+    background: linear-gradient(95deg, #a8d9fb, #42b0fd);
     padding: 30px;
 }
 
@@ -140,9 +137,13 @@ body {
     background: #2a92ed;
 }
 
+.links-home .col-3 {
+    width:40%;
+}
+
 .links-home a {
     text-decoration: none;
-    color: white;
+    color: black;
     display: inline-block;
     transition: transform 0.3s, background 0.3s;
 }
@@ -230,14 +231,14 @@ body {
 }
 
 .lider img {
-    width:200px;
-    border-radius:55px;
-    box-shadow:20px;
+    width: 200px;
+    border-radius: 55px;
+    box-shadow: 20px;
 }
 
 .lider {
     width: 450px;
-    margin-top:30px;
+    margin-top: 30px;
 }
 
 .lideres-rigth img {
@@ -245,11 +246,11 @@ body {
 }
 
 .mapa {
-    width:50%;
+    width: 50%;
 }
 
-.link-rodape a{
-    text-decoration:none;
+.link-rodape a {
+    text-decoration: none;
     color: black;
 }
 
@@ -300,7 +301,7 @@ body {
     width: 87%;
     height: 70px;
     margin-left: 100px;
-    background-color: #0021a1;
+    background: linear-gradient(95deg, #a8d9fb, #42b0fd);
     color: white;
     display: flex;
     align-items: center;

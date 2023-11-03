@@ -34,10 +34,12 @@
     <br />
 
     <div class="links-home">
+
         <div class="row">
             <div class="col-3">
                 <div class="box margin-right-20">
                     <a href="#">
+
                         <img width="100%" src="Images/si1.png" />
                         <br />
                         <h3>Segurança na Rede</h3>
@@ -51,7 +53,7 @@
             <div class="col-3">
                 <div class="box margin-right-20">
                     <a href="#">
-                        <img width="100%" src="Images/si2.jpg" />
+                        <img width="100%" src="Images/si2.png" />
                         <br />
                         <h3>Rede em Nuvem e Virtualização</h3>
                         <p>
@@ -64,6 +66,7 @@
             <div class="col-3">
                 <div class="box margin-right-20">
                     <a href="#">
+
                         <img width="100%" src="Images/si3.jpg" />
                         <br />
                         <h3>Serviços de Rede Corporativa</h3>
@@ -77,7 +80,8 @@
             <div class="col-3">
                 <div class="box margin-right-20">
                     <a href="#">
-                        <img width="100%" src="Images/si4.jpg" />
+
+                        <img width="100%" src="Images/si4.png" />
                         <br />
                         <h3>Monitoramento de Rede em Tempo Real</h3>
                         <p>
@@ -89,4 +93,5 @@
             </div>
         </div>
     </div>
+
 </asp:Content>

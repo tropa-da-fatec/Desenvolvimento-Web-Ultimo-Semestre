@@ -43,51 +43,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="csc">
-      <HintPath>bin\roslyn\csc.exe</HintPath>
-    </Reference>
-    <Reference Include="csi">
-      <HintPath>bin\roslyn\csi.exe</HintPath>
-    </Reference>
-    <Reference Include="Datapost.DB, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Datapost.DB.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Build.Tasks.CodeAnalysis">
-      <HintPath>bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.CodeAnalysis">
-      <HintPath>bin\roslyn\Microsoft.CodeAnalysis.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.CodeAnalysis.CSharp">
-      <HintPath>bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.CodeAnalysis.CSharp.Scripting">
-      <HintPath>bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.CodeAnalysis.Scripting">
-      <HintPath>bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.CodeAnalysis.VisualBasic">
-      <HintPath>bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll</HintPath>
+    <Reference Include="Datapost.DB">
+      <HintPath>..\..\..\Datapost\Datapost.DB.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="Microsoft.Win32.Primitives" />
-    <Reference Include="System.AppContext" />
-    <Reference Include="System.Collections.Immutable, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\roslyn\System.Collections.Immutable.dll</HintPath>
+    <Reference Include="mysql.data">
+      <HintPath>..\..\..\Datapost\mysql.data.dll</HintPath>
     </Reference>
-    <Reference Include="System.Console" />
-    <Reference Include="System.Diagnostics.DiagnosticSource, Version=7.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\roslyn\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\..\..\Datapost\System.Data.SQLite.dll</HintPath>
     </Reference>
-    <Reference Include="System.Diagnostics.FileVersionInfo" />
-    <Reference Include="System.Diagnostics.StackTrace" />
-    <Reference Include="System.Globalization.Calendars" />
-    <Reference Include="System.IO.Compression" />
-    <Reference Include="System.IO.FileSystem" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -104,14 +69,6 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
-    <Reference Include="System.Xml.ReaderWriter" />
-    <Reference Include="System.Xml.XmlDocument" />
-    <Reference Include="System.Xml.XPath" />
-    <Reference Include="System.Xml.XPath.XDocument" />
-    <Reference Include="WebApplication, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\WebApplication.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
@@ -121,7 +78,6 @@
   <ItemGroup>
     <Content Include="App_Data\SI20232.accdb" />
     <Content Include="CadastroComputadores.aspx" />
-    <Content Include="Cases.aspx" />
     <Content Include="contato.aspx" />
     <Content Include="CSS\Projeto.css" />
     <Content Include="CSS\StyleSheet.css" />
@@ -140,25 +96,25 @@
     <Content Include="Images\icon_faleconosco.png" />
     <Content Include="Images\icon_website.png" />
     <Content Include="Images\imagem_sobre.jpg" />
-    <Content Include="Images\Infra.png" />
     <Content Include="Images\instagram.png" />
     <Content Include="Images\lider-dev.jpg" />
     <Content Include="Images\lider-financas.jpg" />
+    <Content Include="Images\lider-marketing.jpg" />
     <Content Include="Images\lider-qualidade.jpg" />
     <Content Include="Images\lider-redes.jpg" />
     <Content Include="Images\lider-suporte.jpg" />
-    <Content Include="Images\lider-marketing.jpg" />
     <Content Include="Images\lupa.png" />
     <Content Include="Images\marca.png" />
     <Content Include="Images\marca1.png" />
     <Content Include="Images\menu_mobile.png" />
     <Content Include="Images\pessoas.png" />
     <Content Include="Images\programador.png" />
-    <Content Include="Images\resultado.png" />
     <Content Include="Images\si1.png" />
     <Content Include="Images\si2.jpg" />
+    <Content Include="Images\si2.png" />
     <Content Include="Images\si3.jpg" />
     <Content Include="Images\si4.jpg" />
+    <Content Include="Images\si4.png" />
     <Content Include="Images\si5.jpeg" />
     <Content Include="JavaScript\flexslider.css" />
     <Content Include="JavaScript\flexslider.min.js" />
@@ -175,13 +131,6 @@
     </Compile>
     <Compile Include="CadastroComputadores.aspx.designer.cs">
       <DependentUpon>CadastroComputadores.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Cases.aspx.cs">
-      <DependentUpon>Cases.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Cases.aspx.designer.cs">
-      <DependentUpon>Cases.aspx</DependentUpon>
     </Compile>
     <Compile Include="contato.aspx.cs">
       <DependentUpon>contato.aspx</DependentUpon>
@@ -227,9 +176,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
