@@ -42,6 +42,7 @@
                 <a href="Default.aspx">HOME</a>
                 <a href="contato.aspx">CONTATO</a>
                 <a href="sobre.aspx">SOBRE</a>
+                <a href="Ping.aspx">PINGs</a>
                 <a href="CadastroComputadores.aspx">COMPUTADORES</a>
             </div>
         </div>

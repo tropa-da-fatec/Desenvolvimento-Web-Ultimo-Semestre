@@ -119,6 +119,7 @@
     <Content Include="JavaScript\flexslider.css" />
     <Content Include="JavaScript\flexslider.min.js" />
     <Content Include="JavaScript\jquery-1.7.2.min.js" />
+    <Content Include="Ping.aspx" />
     <Content Include="sobre.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -145,6 +146,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ping.aspx.cs">
+      <DependentUpon>Ping.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ping.aspx.designer.cs">
+      <DependentUpon>Ping.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
