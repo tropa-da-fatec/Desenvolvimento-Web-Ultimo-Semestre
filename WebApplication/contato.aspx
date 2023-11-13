@@ -7,8 +7,8 @@
         <div class="row">
             <h3>Para entrar em contato</h3>
             <p>
-                Caso qeuira entrar em contato, mande um e-mail para gente, informando quais os serviçoes que gostaria de contratar e vamos retornar o amsi rapido possivel.
-                Se for um problema em especifico fique a avontade em detalahar mais em outras formas de contato.
+                Caso queira entrar em contato, mande um e-mail para gente, informando quais os serviçoes que gostaria de contratar e vamos retornar o mais rápido possível.
+                Se for um problema em específico, fique a a vontade em detalhar mais em outras formas de contato.
             </p>
             <!-- Coluno Esquerda -->
             <div class="col-6">
