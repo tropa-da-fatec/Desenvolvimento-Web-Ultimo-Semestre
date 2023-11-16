@@ -38,7 +38,7 @@
         <div class="row">
             <div class="col-3">
                 <div class="box margin-right-20">
-                    <a href="#">
+                    <a href="Post.aspx">
 
                         <img width="100%" src="Images/si1.png" />
                         <br />
@@ -52,7 +52,7 @@
             </div>
             <div class="col-3">
                 <div class="box margin-right-20">
-                    <a href="#">
+                    <a href="Post.aspx">
                         <img width="100%" src="Images/si2.png" />
                         <br />
                         <h3>Rede em Nuvem e Virtualização</h3>
@@ -65,7 +65,7 @@
             </div>
             <div class="col-3">
                 <div class="box margin-right-20">
-                    <a href="#">
+                    <a href="Post.aspx">
 
                         <img width="100%" src="Images/si3.jpg" />
                         <br />
@@ -79,7 +79,7 @@
             </div>
             <div class="col-3">
                 <div class="box margin-right-20">
-                    <a href="#">
+                    <a href="Post.aspx">
 
                         <img width="100%" src="Images/si4.png" />
                         <br />

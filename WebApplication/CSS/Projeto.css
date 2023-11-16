@@ -366,3 +366,15 @@ body {
     width: 400px;
     height: 250px;
 }
+
+.postagem p{
+    text-align:justify;
+}
+
+.conteudo-um{
+    width: 45%;
+}
+
+.conteudo-dois {
+    width: 47%;
+}
