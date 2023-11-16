@@ -14,7 +14,7 @@
                     <div class="card-header">
                         POST
                     </div>
-                    <div class="card-body">
+                    <div class="card-body" style="background: linear-gradient(45deg, #4FB6DB, transparent);">
                         <h5 class="card-title">SEGURANÇA NA REDE</h5>
                         <p class="card-text">
                             A segurança de rede é fundamental na era digital, onde a conectividade é onipresente. Trata-se de um conjunto de práticas e medidas que visam proteger a integridade, confidencialidade e disponibilidade dos dados que trafegam em uma rede de computadores.
@@ -55,7 +55,7 @@
                     <div class="card-header">
                         POST
                     </div>
-                    <div class="card-body">
+                    <div class="card-body" style="background: linear-gradient(-45deg, #4FB6DB, transparent);">
                         <h5 class="card-title">REDE EM NUVEM E VIRTUALIZAÇÃO</h5>
                         <p class="card-text">
                             A computação em nuvem e a virtualização revolucionaram a forma como as organizações gerenciam e utilizam recursos de tecnologia da informação. Vamos explorar esses conceitos e entender como eles se entrelaçam.
@@ -99,7 +99,7 @@
                     <div class="card-header">
                         POST
                     </div>
-                    <div class="card-body">
+                    <div class="card-body" style="background: linear-gradient(45deg, #4FB6DB, transparent);">
                         <h5 class="card-title">SERVIÇOS DE REDE CORPORATIVA</h5>
                         <p class="card-text">
                             Serviços de rede corporativa desempenham um papel vital no suporte às operações de uma organização, fornecendo a infraestrutura necessária para comunicação eficiente e compartilhamento de recursos. Vamos explorar alguns dos principais serviços que compõem uma rede corporativa.
@@ -130,7 +130,7 @@
                     <div class="card-header">
                         POST
                     </div>
-                    <div class="card-body">
+                    <div class="card-body" style="background: linear-gradient(-45deg, #4FB6DB, transparent);">
                         <h5 class="card-title">MONITORAMENTO DA REDE EM TEMPO REAL</h5>
                         <p class="card-text">
                             O monitoramento de rede em tempo real é uma prática crucial para garantir o desempenho, a segurança e a disponibilidade contínua dos recursos de uma infraestrutura de TI. Vamos explorar como essa abordagem é implementada e quais são seus benefícios.
